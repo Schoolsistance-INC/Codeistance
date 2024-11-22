@@ -1,0 +1,678 @@
+&lt!DOCTYPE html&gt
+&lthmtl&gt
+    &lthead&gt
+        &ltmeta charset="utf-8"&gt
+        &ltmeta name="keywords" content="codehs,school,help,code,karel,HTML, CSS, JavaScript, codehs assistance, CODESISTANCE, codesistance, assistance"&gt
+        <!--&ltmeta name="author" content="Ben Brown"&gt-->
+        &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt
+        &lttitle&gtCODESISTANCE&lt/title&gt
+        &ltlink href="style.css" rel="stylesheet"&gt
+        &ltlink href="tab.css" rel="stylesheet"&gt
+        &ltlink href="dropdown.css" rel="stylesheet"&gt
+        &ltlink rel="shortcut icon" href="https://codehs.com/uploads/88488d86fa29a318ed3e35f2d43d8861"&gt
+    &lt/head&gt
+    &ltbody&gt
+        &ltdiv class="tab"&gt
+  &ltbutton class="tablinks" onclick="openCity(event, 'home')" id="defaultOpen"&gtHome&lt/button&gt
+  &ltbutton class="tablinks" onclick="openCity(event,'javascript')"&gtJavaScript&lt/button&gt
+  &ltbutton class="tablinks" onclick="openCity(event,'karel')"&gtKarel&lt/button&gt
+  &ltbutton class="tablinks" onclick="openCity(event, 'html')"&gtHTML/CSS&lt/button&gt
+&lt/div&gt
+    &ltdiv id="home" class="tabcontent"&gt
+        &lth1&gtCodeHS Assistance&lt/h1&gt
+        &ltp class="slogan"&gtHtml/CSS/JavaScript & Karel Answers With Explanations&lt/p&gt
+        &lth4 id="disclaimer"&gt&ltb&gtDISCLAIMER: SOME OF THESE ANSWERS ARE NOT REALLY MINE BUT COPIED OFF OF THE INTERENET&lt/b&gt&lt/h4&gt
+    &lt/div&gt
+    &ltdiv id='javascript' class="tabcontent"&gt
+        &lth1&gtJavaScript&lt/h1&gt
+        &lth2 class="unit"&gtProgramming Applications:&lt/h2&gt
+        &ltbutton class="accordion"&gt&lth2&gtVariables:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+        &lth3&gtDaily Activities:&lt/h3&gt 
+        &ltbutton class="accordion"&gtCode & Explanation&lt/button&gt
+&ltdiv class="panel"&gt
+    &lth4&gtCode:&lt/h4&gt
+            &ltpre&gtfunction start(){
+	var partOfDay = "morning,";
+	
+	var time = 8;
+	
+	time=8;
+	println("in the " + partOfDay + " I woke up at " + time );
+
+partOfDay = "afternoon,";
+time=12;
+    println("in the " + partOfDay + "I woke up at " + time );
+    
+    partOfDay = "evening,";
+time=11;
+    println("in the " + partOfDay + "go to bed at " + time );
+}&lt/pre&gt
+&lth4&gtExplanation:&lt/h4&gt
+&ltol&gt
+&ltli&gtYou make a variable called "partofday" with the valur being "morning"&lt/li&gt
+&ltli&gtYou make a variable called "time" with the value being 8&lt/li&gt
+&ltli&gtYou set the value of "time" to 8&lt/li&gt
+&ltli&gtyou print "in the" then you add partofday which has a value of "morning" then you add "I woke up at" then you add time which has a value of 8&lt/li&gt
+&ltli&gtYou then change the values of partofday and time and repeat&lt/li&gt
+&lt/ol&gt
+ &lt/div&gt
+ &lt/div&gt
+ &ltbr&gt
+ &ltbutton class="accordion"&gt&lth2&gtUser Input:&lt/h2&gt&lt/button&gt
+ &ltdiv class="panel"&gt
+     &lth3&gtDinner Plans:&lt/h3&gt
+     &ltbutton class="accordion"&gtCode & Explanation&lt/button&gt
+     &ltdiv class="panel"&gt
+         &lth4&gtCode:&lt/h4&gt
+         &ltpre&gtfunction start(){
+	var name= readLine("Hi, What is your name?" );
+	println("hello" + name + "nice to meet you" );
+	
+	var age = readInt("What is your age? ");
+	println("You are " + age + " years old.");
+}&lt/pre&gt
+         &lth4&gtExplanation:&lt/h4&gt
+         &ltol&gt
+             &ltli&gt&lt/li&gt
+         &lt/ol&gt
+     &lt/div&gt
+ &lt/div&gt
+ &ltbr&gt
+ &ltbutton class="accordion"&gt&lth2&gtBasic Math In JS:&lt/h2&gt&lt/button&gt
+ &ltdiv class="panel"&gt
+     &lth3&gtT-Shirt Shop:&lt/h3&gt
+     &ltbutton class="accordion"&gtCode & Explanation&lt/button&gt
+     &ltdiv class="panel"&gt
+         &lth4&gtCode:&lt/h4&gt
+         &ltpre&gt&lt/pre&gt
+         &lth4&gtExplanation:&lt/h4&gt
+         &ltol&gt
+             &ltli&gt&lt/li&gt
+         &lt/ol&gt
+     &lt/div&gt
+     &ltbr&gt
+     &lth3&gtRunning Speed:&lt/h3&gt
+     &ltbutton class="accordion"&gtCode & Explanation&lt/button&gt
+     &ltdiv class="panel"&gt
+         &lth4&gtCode:&lt/h4&gt
+         &ltpre&gt&lt/pre&gt
+         &lth4&gtExplanation:&lt/h4&gt
+         &ltol&gt
+             &ltli&gt&lt/li&gt
+         &lt/ol&gt
+     &lt/div&gt
+     &ltbr&gt
+ &lt/div&gt
+&ltbr&gt
+&ltbutton class="accordion"&gt&lth2&gtUsing Graphics In JS:&lt/h2&gt&lt/button&gt
+ &ltdiv class="panel"&gt
+ &lth3&gtFlag of The Netherlands:&lt/h3&gt
+ &ltbutton class="accordion"&gtCode & Explanation&lt/button&gt
+     &ltdiv class="panel"&gt
+         &lth4&gtCode:&lt/h4&gt
+         &ltpre&gt&lt/pre&gt
+         &lth4&gtExplanation:&lt/h4&gt
+         &ltol&gt
+             &ltli&gt&lt/li&gt
+         &lt/ol&gt
+     &lt/div&gt
+     &ltbr&gt
+     &lth3&gtSnowman:&lt/h3&gt
+     &ltbutton class="accordion"&gtCode & Explanation&lt/button&gt
+     &ltdiv class="panel"&gt
+         &lth4&gtCode:&lt/h4&gt
+         &ltpre&gt&lt/pre&gt
+         &lth4&gtExplanation:&lt/h4&gt
+         &ltol&gt
+             &ltli&gt&lt/li&gt
+         &lt/ol&gt
+     &lt/div&gt
+     &ltbr&gt
+ &lt/div&gt
+&ltbr&gt
+ &ltbutton class="accordion"&gt&lth2&gtScript Tag:&lt/h2&gt&lt/button&gt
+ &ltdiv class="panel"&gt
+     &lth3&gtWriting In the Console:&lt/h3&gt
+     &ltbutton class="accordion"&gtCode & Eplanation&lt/button&gt
+     &ltdiv class="panel"&gt
+         &lth4&gtCode:&lt/h4&gt
+         &ltpre&gt&lt/pre&gt
+         &lth4&gtExplanation:&lt/h4&gt
+         &ltol&gt
+             &ltli&gt&lt/li&gt
+         &lt/ol&gt
+     &lt/div&gt
+&ltbr&gt
+&lth3&gtAlert Introduction:&lt/h3&gt
+&ltbutton class="accordion"&gtCode & Eplanation&lt/button&gt
+     &ltdiv class="panel"&gt
+         &lth4&gtCode:&lt/h4&gt
+         &ltpre&gt&lt/pre&gt
+         &lth4&gtExplanation:&lt/h4&gt
+         &ltol&gt
+             &ltli&gt&lt/li&gt
+         &lt/ol&gt
+     &lt/div&gt
+     &ltbr&gt
+     &lth3&gtDebugging The Console&lt/h3&gt
+     &ltbutton class="accordion"&gtCode & Eplanation&lt/button&gt
+     &ltdiv class="panel"&gt
+         &lth4&gtCode:&lt/h4&gt
+         &ltpre&gt&lt/pre&gt
+         &lth4&gtExplanation:&lt/h4&gt
+         &ltol&gt
+             &ltli&gt&lt/li&gt
+         &lt/ol&gt
+     &lt/div&gt
+&lt/div&gt
+&ltbr&gt
+&ltbutton class="accordion"&gt&lth2&gtUsing The DOM:&lt/h2&gt&lt/button&gt
+ &ltdiv class="panel"&gt
+     &lth3&gt&lt/h3&gt
+ &lt/div&gt
+&ltbr&gt
+&ltbutton class="accordion"&gt&lth2&gtUsing The jQuery Library:&lt/h2&gt&lt/button&gt
+ &ltdiv class="panel"&gt
+     &lth3&gt&lt/h3&gt
+ &lt/div&gt
+&ltbr&gt
+&lth2 class="unit"&gtControl Structures:&lt/h2&gt
+&ltbutton class="accordion"&gt&lth2&gtThe Break Statement:&lt/h2&gt&lt/button&gt
+&ltdiv class="panel"&gt
+    &lth3&gtSnake Eyes:&lt/h3&gt
+    &ltbutton class="accordion"&gtCode & Explanation&lt/button&gt
+    &ltdiv class="panel"&gt
+        &lth4&gtCode:&lt/h4&gt
+        &ltpre&gtfunction main(){
+let die1 = Randomizer.nextInt(1,6);
+let die2 = Randomizer.nextInt(1,6);
+let rolls = die1 + die2;
+let isroll = die1 == die2;
+let attempts = 0;
+let run=true;
+
+while (isroll == true) {
+    console.log("you rolled" + rolls);
+    attempts = attempts++;
+   if (die1 == die2){
+        break;
+    }
+}
+console.log("It took you " + attempts + " rolls to get snake eyes.");
+}
+main();&lt/pre&gt
+&lth4&gtExplanation:&lt/h4&gt
+&ltol&gt
+    &ltli&gt&lt/li&gt
+&lt/ol&gt
+    &lt/div&gt
+    &ltbr&gt
+    &lth3&gtBetter Password Prompt:&lt/h3&gt
+    &ltbutton class="accordion"&gtCode & Explanation&lt/button&gt
+    &ltdiv class="panel"&gt
+        &lth4&gtCode:&lt/h4&gt
+        &ltpre&gtfunction main(){
+    let correct="abc123";
+    let password = readLine("Enter password: ");
+    let run = password != correct;
+    while (run == true){
+        console.log("Sorry, that did not match. Please try again.");
+        password = readLine("Enter password: ");
+        if (password == correct){
+            break;
+        }
+    }
+    console.log("You got it!");
+}
+main();&lt/pre&gt
+&lth4&gtExplanation:&lt/h4&gt
+&ltol&gt
+    &ltli&gt&lt/li&gt
+&lt/ol&gt
+    &lt/div&gt
+&lt/div&gt
+&lt/div&gt
+    &ltdiv id='karel' class="tabcontent"&gt
+        &lth1&gtKarel&lt/h1&gt
+         &lth2&gtConcepts Of Programming&lt/h2&gt
+        &ltbutton class="accordion"&gt&lth2&gtIntro To Programming With Karel:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gtYour First Karel Program:&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gtMore Basic Karel:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gtKarel Can't Turn Right:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gtFunctions In Karel:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gtThe Start Function:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gtTop Down Design & Decompositon In Karel:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gtCommenting Your Code:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gtSuper Karel:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gtFor Loops:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gtIf Statements:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gtIf/Else Statements:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gtWhile Loops In Karel:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gtControl Strucutures Example:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gtDebugging Your Code:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &lth2&gtProgramming Application&lt/h2&gt
+    &lt/div&gt
+    &ltdiv id='html' class="tabcontent"&gt
+         &lth1&gtHTML/CSS&lt/h1&gt
+        &lth2 class="unit"&gtWeb Design:&lt/h2&gt
+        &ltbutton class="accordion"&gt&lth2&gtStructure Of an HTML Page:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gtThe &lttitle&gt Tag:&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+            &ltbr&gt
+            &lth3&gtYour First HTML Page:&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gtFormatting Text:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gtLinks:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gtImages:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gtHTML Lists:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gtHTML Tables:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gtHTML Styling:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gtHTML Colors:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gtIntro To CSS:&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gt&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gt&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gt&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gt&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gt&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gt&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+        &ltbr&gt
+        &ltbutton class="accordion"&gt&lth2&gt&lt/h2&gt&lt/button&gt
+        &ltdiv class="panel"&gt
+            &lth3&gt&lt/h3&gt
+            &ltbutton class="accordion"&gtCode & Explanation:&lt/button&gt
+            &ltdiv class="panel"&gt
+                &lth4&gtCode:&lt/h4&gt
+                &ltpre&gt&lt/pre&gt
+                &lth4&gtExplanation:&lt/h4&gt
+                &ltol&gt
+                    &ltli&gt&lt/li&gt
+                &lt/ol&gt
+            &lt/div&gt
+        &lt/div&gt
+    &lt/div&gt
+    &ltscript src="dropdown.js"&gt&lt/script&gt
+    &ltscript src="buttons.js"&gt&lt/script&gt
+    &ltscript src="mobile.js"&gt&lt/script&gt
+    &lt/body&gt
+&lt/hmtl&gt
